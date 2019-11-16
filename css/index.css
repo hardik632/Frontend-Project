@@ -1,0 +1,96 @@
+body{
+   background: url('background.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center center;
+   background-size: cover;
+   margin: 0 !important;
+   background-size: 100% cover!important;
+   overflow:hidden;
+   display: block;
+} 
+.allposts
+{
+/* border: 1px solid  rgb(224, 224, 9); */
+background-color:   rgb(211, 211, 38);
+text-decoration: none;
+color:black;
+padding:9px;
+}
+
+.createposts
+{
+/* border: 1px solid rgb(224, 224, 9); */
+background-color:  rgb(211, 211, 38);
+text-decoration: none;
+color:black;
+padding:9px;  
+margin-left:3px;
+}
+
+
+.postButtons
+{
+margin-left:42%;  
+margin-top:11%;
+}
+
+.createpost-modal {
+   display: none; /* Hidden by default */
+   position: fixed; /* Stay in place */
+   z-index: 1; /* Sit on top */
+   padding-top: 100px; /* Location of the box */
+   left: 0;
+   top: 0;
+   width: 100%; /* Full width */
+   height: 100%; /* Full height */
+   overflow: auto; /* Enable scroll if needed */
+   background-color: rgb(0,0,0); /* Fallback color */
+   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+ }
+ 
+ /* Modal Content */
+ .createpost-modal-content {
+   background-color: #fefefe;
+   margin: auto;
+   padding: 20px;
+   border: 1px solid #888;
+   width:400px;
+ }
+ 
+ /* The Close Button */
+ .createpost-close {
+   color: #aaaaaa;
+   float: right;
+   font-size: 28px;
+   font-weight: bold;
+ }
+ 
+ .createpost-close:hover,
+ .createpost-close:focus {
+   color: #000;
+   text-decoration: none;
+   cursor: pointer;
+ }
+.cpost-button
+{
+   border: 1px solid rgb(26, 170, 26);
+  text-align: center;
+  color:white;
+  width:100%; 
+  background-color:rgb(26, 170, 26);
+  padding:8px;
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+.cpost
+{
+   font-size: 28px;;
+}
+.cpost-input
+{
+   margin-top:7px;
+  margin-bottom:7px;
+  width:92%;
+  padding:7px;
+}

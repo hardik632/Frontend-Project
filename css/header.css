@@ -1,0 +1,165 @@
+/* Set a style for all elements inside the header i.e. Sign Up button, Sign In button, 
+the title "ScriBBler" & the sub-heading below "ScriBBLer" */
+.signup-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .signup-modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width:400px;
+  }
+  
+  /* The Close Button */
+  .signup-close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .signup-close:hover,
+  .signup-close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+  .signin-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .signin-modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 300px;
+    
+  }
+  
+  /* The Close Button */
+  .signin-close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .signin-close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.inputs
+{
+  margin-top:7px;
+  margin-bottom:7px;
+  width:92%;
+  padding:7px;
+}
+#intro
+{
+   font-size:28px;
+}
+.signin
+{
+  border: 1px solid rgb(26, 170, 26);
+  text-align: center;
+  color:white;
+  width:100%; 
+  background-color:rgb(26, 170, 26);
+  padding:8px;
+  margin-top:10px;
+  margin-bottom: 10px;
+  
+}
+
+.signup
+{
+    border: 1px solid rgb(26, 170, 26);
+    text-align: center;
+    color:white;
+    width:100%; 
+    background-color:rgb(26, 170, 26);
+    padding:8px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    
+    
+}
+.nam
+{
+  margin-top:10px;
+  font-size: 22px;
+}
+
+#namsignup
+{
+  text-decoration:none;
+  color:blue;
+}
+#signup-button
+{
+  /* border:1px solid blue; */
+  float:right;
+  background-color: blue;
+  color:white;
+  padding: 7px;
+  margin:5px;
+  width:80px;
+}
+#signin-button
+{
+  /* border:1px solid blue; */
+  float:right;
+  background-color: blue;
+  color:white;
+  padding: 7px;
+  margin:5px;
+  width:80px
+}
+.header
+{
+  margin-top:6px;
+}
+.logo-title
+{
+    padding:7px;
+    font-family: 'Satisfy', cursive;
+    color:rgb(19, 19, 228);
+    font-size: 34px;
+}
+.middleText
+{
+   font-family: 'Marck Script', cursive;
+   padding:7px;
+}
+

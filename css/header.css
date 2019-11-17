@@ -156,6 +156,7 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
     font-family: 'Satisfy', cursive;
     color:rgb(19, 19, 228);
     font-size: 34px;
+    text-decoration: none;
 }
 .middleText
 {
